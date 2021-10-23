@@ -7,7 +7,7 @@
     "watch": "tsc -watch",
     "start": "node dist/index.js",
     "deploy": "pm2 start dist/index.js",
-    "deploydev": "pm start dist/index.js --watch"
+    "deploydev": "pm2 start dist/index.js --watch"
   },
   "author": "",
   "license": "ISC",
